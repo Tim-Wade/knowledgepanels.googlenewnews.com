@@ -154,7 +154,7 @@
 </nav>
 
     <div class="body-secondary">
-      <p class="right-title">Recent Google Knowledge Panel News</p>
+      <p class="right-title">Google Knowledge Panel news:</p>
       <ul class="recent-post clearfix">
         
         <li class="recent-post-item">
@@ -241,7 +241,7 @@
       <div class="calendar-container" id="calendar">
   <div class="calendar">
     <h3>
-      {{posts.length}} contributions in the last year
+      {{posts.length}} further contributions to Google's knowledge the last year:
     </h3>
     <div class="calendar-graph-container">
       <div class="calendar-graph">
@@ -310,7 +310,7 @@
     </div>
   </div>
 
-  <h3>Contribution activity</h3>
+  <h4>Contribution activity</h4>
   <div class="contribution-list">
     <ul>
       <li v-for="post in posts | filterBy selectedDate in 'date'">
